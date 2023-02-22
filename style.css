@@ -7,6 +7,8 @@ h1{
     padding: 20px;
     text-align: center;
     margin: 10px;
+    color: #3a0200;
+    font-weight: bold;
 }
 
 #logo{
@@ -16,11 +18,7 @@ h1{
 }
 
 nav{
-    text-align: center
-}
-
-section{
-    background-color:rgb(#EAA19F)
+    text-align: center;
 }
 
 section img{
@@ -29,6 +27,7 @@ section img{
 
 #first{
     display: inline-block;
+    background-color:rgb(#EAA19F);
 }
 
 #first p{
@@ -44,10 +43,23 @@ section img{
 #first h2{
     align: left;
     padding: 10px;
+    color: #3a0200;
+    font-weight: bold;
+}
+
+#firsttext {
+    float: left;
+
 }
 
 #second{
-    display: inline-block
+    display: inline-block;
+}
+
+#second h2{
+    text-align: center;
+    color: #3a0200;
+    font-weight: bold;
 }
 
 #secondp1 {
@@ -70,11 +82,19 @@ section img{
     display: inline-block;
 }
 
+#third h2{
+    text-align: right;
+    padding: 10px;
+    color: #3a0200;
+    font-weight: bold;
+}
+
 #third p{
     text-align: right;
     padding: 40px;
     margin: 20px;
 }
+
 
 #third img{
     float: left;
