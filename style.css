@@ -15,7 +15,8 @@ h1{
     padding: 5px;
     width: 20%;
     border: 2px solid black;
-
+    position: relative;
+    left: 735px;
 }
 
 nav {
@@ -37,7 +38,7 @@ section img{
 }
 
 #first p{
-    padding: 20px;
+    padding: 5px;
     text-align: center;
     word-wrap: normal;
     margin: auto;
