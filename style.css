@@ -1,5 +1,6 @@
 body{
     background-color: rgb(243, 97, 92);
+    margin: 10px;
 }
 
 h1{
@@ -14,6 +15,7 @@ h1{
     padding: 5px;
     width: 20%;
     border: 2px solid black;
+
 }
 
 nav {
@@ -45,7 +47,7 @@ section img{
 
 #first img{
     float: right;
-    margin: 30px;
+    margin: 70px;
 }
 
 #first h2{
@@ -59,7 +61,7 @@ section img{
 #firsttext {
     float: left;
     max-width: 750px;
-    margin: auto;
+    margin: 100px;
 }
 
 #second{
@@ -87,7 +89,7 @@ section img{
     text-align: right;
     float: right;
     max-width: 465px;
-    margin: 20px;
+    margin: 30px;
     border: 2px solid black;
     padding: 10px;
 }
@@ -119,6 +121,7 @@ section img{
 #thirdtext{
     float: right;
     max-width: 750px;
+    margin: 100px;
 }
 
 #third img{
