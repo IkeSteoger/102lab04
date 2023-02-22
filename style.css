@@ -10,8 +10,12 @@ h1{
 
 #logo{
     padding: 5px;
-    align: center;
+    align-items: center;
     width: 40%;
+}
+
+nav{
+    text-align: center
 }
 
 section{
@@ -21,7 +25,25 @@ section{
 
 section img{
     width: 80%;
+    float: inline-end;
 }
 
+h2{
+    text-align: center;
+}
 
-*{border: 2px solid black;}
+#first{
+    display: inline-block;
+}
+
+#second{
+
+}
+
+#third{
+
+}
+
+*{
+    border: 2px solid black;
+}
