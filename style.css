@@ -8,11 +8,13 @@ h1{
     margin: 10px;
     color: #3a0200;
     font-weight: bold;
+    border: 2px solid black;
 }
 
 #logo{
     padding: 5px;
     width: 20%;
+    border: 2px solid black;
 }
 
 nav {
@@ -39,6 +41,7 @@ section img{
     word-wrap: normal;
     margin: auto;
     Max-width: 1000px;
+    border: 2px solid black;
 }
 
 #first img{
@@ -51,6 +54,7 @@ section img{
     padding: 10px;
     color: #3a0200;
     font-weight: bold;
+    border: 2px solid black;
 }
 
 #firsttext {
@@ -68,20 +72,25 @@ section img{
     padding: 10px;
     color: #3a0200;
     font-weight: bold;
+    border: 2px solid black;
 }
 
 #secondp1 {
     text-align:left;
     float: left;
-    max-width: 350px;
+    max-width: 465px;
     margin: 20px;
+    border: 2px solid black;
+    padding: 10px;
 }
 
 #secondp2 {
     text-align: right;
     float: right;
-    max-width: 350px;
+    max-width: 465px;
     margin: 20px;
+    border: 2px solid black;
+    padding: 10px;
 }
 
 #second img{
@@ -98,18 +107,19 @@ section img{
     padding: 10px;
     color: #3a0200;
     font-weight: bold;
+    border: 2px solid black;
 }
 
 #third p{
     text-align: right;
-    padding: 40px;
-    margin: 20px;
-    max-width: 650px;
     float: right;
+    border: 2px solid black;
+    padding: 10px;
 }
 
 #thirdtext{
     float: right;
+    max-width: 750px;
 }
 
 #third img{
@@ -122,6 +132,6 @@ footer{
 }
 
 
-*{
+/* *{
     border: 2px solid black;
-}
+} */
