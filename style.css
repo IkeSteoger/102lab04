@@ -16,6 +16,12 @@ h1{
 
 section{
     background-color:rgb(238, 66, 60)
+    display: inline-block;
 }
+
+section img{
+    width: 80%;
+}
+
 
 *{border: 2px solid black;}
