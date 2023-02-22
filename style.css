@@ -1,6 +1,5 @@
 body{
     background-color: rgb(243, 97, 92);
-    padding: 40px;
 }
 
 h1{
@@ -14,34 +13,41 @@ h1{
 #logo{
     padding: 5px;
     width: 20%;
-    
 }
 
-nav{
+nav {
     text-align: center;
+    display: inline-block;
+    background-color: rgb(226, 154, 60);
+    border: 1px solid black;
+    border-radius: 25px;
+    margin: 5px;
+    padding: 5px;
 }
 
 section img{
-    width: 30%;
+    width: 40%;
 }
 
 #first{
-    display: inline-block;
-    background-color:rgb(#EAA19F);
+    margin: auto;
 }
 
 #first p{
-    text-align: left;
     padding: 20px;
+    text-align: center;
     word-wrap: normal;
+    margin: auto;
+    Max-width: 1000px;
 }
 
 #first img{
     float: right;
+    margin: 30px;
 }
 
 #first h2{
-    align: left;
+    text-align: center;
     padding: 10px;
     color: #3a0200;
     font-weight: bold;
@@ -49,7 +55,8 @@ section img{
 
 #firsttext {
     float: left;
-
+    max-width: 750px;
+    margin: auto;
 }
 
 #second{
@@ -58,6 +65,7 @@ section img{
 
 #second h2{
     text-align: center;
+    padding: 10px;
     color: #3a0200;
     font-weight: bold;
 }
@@ -65,17 +73,20 @@ section img{
 #secondp1 {
     text-align:left;
     float: left;
-    word-wrap: normal;
+    max-width: 350px;
+    margin: 20px;
 }
 
 #secondp2 {
     text-align: right;
     float: right;
-    word-wrap:normal;
+    max-width: 350px;
+    margin: 20px;
 }
 
 #second img{
-    
+    margin: 10px;
+    vertical-align: middle;
 }
 
 #third{
@@ -83,7 +94,7 @@ section img{
 }
 
 #third h2{
-    text-align: right;
+    text-align: center;
     padding: 10px;
     color: #3a0200;
     font-weight: bold;
@@ -93,11 +104,17 @@ section img{
     text-align: right;
     padding: 40px;
     margin: 20px;
+    max-width: 650px;
+    float: right;
 }
 
+#thirdtext{
+    float: right;
+}
 
 #third img{
     float: left;
+    margin: 30px;
 }
 
 footer{
