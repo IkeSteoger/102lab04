@@ -20,20 +20,18 @@ nav{
 
 section{
     background-color:rgb(238, 66, 60)
-    display: inline-block;
 }
 
 section img{
-    width: 80%;
-    float: inline-end;
+    width: 60%;
 }
 
 h2{
     text-align: center;
 }
 
-#first{
-    display: inline-block;
+#first p{
+    float: left;
 }
 
 #second{
