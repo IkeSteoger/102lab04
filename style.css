@@ -1,5 +1,6 @@
 body{
-    background-color: rgb(243, 97, 92)
+    background-color: rgb(243, 97, 92);
+    padding: 40px;
 }
 
 h1{
@@ -10,8 +11,8 @@ h1{
 
 #logo{
     padding: 5px;
-    align-items: center;
-    width: 40%;
+    width: 20%;
+    
 }
 
 nav{
@@ -19,28 +20,70 @@ nav{
 }
 
 section{
-    background-color:rgb(238, 66, 60)
+    background-color:rgb(#EAA19F)
 }
 
 section img{
-    width: 60%;
+    width: 30%;
 }
 
-h2{
-    text-align: center;
+#first{
+    display: inline-block;
 }
 
 #first p{
-    float: left;
+    text-align: left;
+    padding: 20px;
+    word-wrap: normal;
+}
+
+#first img{
+    float: right;
+}
+
+#first h2{
+    align: left;
+    padding: 10px;
 }
 
 #second{
+    display: inline-block
+}
 
+#secondp1 {
+    text-align:left;
+    float: left;
+    word-wrap: normal;
+}
+
+#secondp2 {
+    text-align: right;
+    float: right;
+    word-wrap:normal;
+}
+
+#second img{
+    
 }
 
 #third{
-
+    display: inline-block;
 }
+
+#third p{
+    text-align: right;
+    padding: 40px;
+    margin: 20px;
+}
+
+#third img{
+    float: left;
+}
+
+footer{
+    text-align: right;
+}
+
 
 *{
     border: 2px solid black;
