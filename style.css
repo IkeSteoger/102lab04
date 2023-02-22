@@ -27,6 +27,8 @@ nav {
     border-radius: 25px;
     margin: 5px;
     padding: 5px;
+    position: relative;
+    left: 875px;
 }
 
 section img{
