@@ -4,6 +4,7 @@ function greeting(){
 
 function infection(){
     let zombie = prompt("Are you a zombie that eats brains?")
+    console.log(zombie);
     if(zombie == null){
         infection()}
     else if(zombie.toLowerCase() == "yes")
