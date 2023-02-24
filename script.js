@@ -4,7 +4,7 @@ function greeting() {
 
 function infection() {
     let zombie = prompt("Are you a zombie that eats brains?")
-    console.log(zombie);
+    console.log("Do they think they're a zombie? " + zombie);
     if (zombie == null) {
         infection()
     }
@@ -24,4 +24,33 @@ function doublecheck() {
         doublecheck()
     }
 
+}
+
+function cheeseburgers(){
+    let burgers = prompt("Last question, how many cheeseburgers do you want for the road? Maximum of 5. Use your NumPad!")
+    console.log("They want " + burgers + " burgers!")
+    if (burgers == 0){
+    document.write(" No cheeseburgers for you! This is what you asked for.")
+    }
+    else if (burgers == 1 || 2 || 3 || 4 || 5){
+        document.write(" Here's your " + burgers + " cheeseburger(s)!")}
+    else {
+            alert("Thats not a numerical value between 0-5! Use your Numpad.");
+    }
+    for (let i=0; i<burgers; i++){
+        show_image('/images/cheeseburger.png', 
+                    500,
+                    500,
+                    'Yum Cheeseburger');
+    }
+}
+
+
+function show_image(src, width, height, alt) {
+    var img = document.createElement("img");
+    img.src = src;
+    img.width = width;
+    img.height = height;
+    img.alt = alt;
+    document.body.appendChild(img);
 }
