@@ -3,28 +3,45 @@ function greeting() {
 }
 
 function infection() {
-    let zombie = prompt("Are you a zombie that eats brains?")
+    let zombie = prompt("Are you a zombie that eats brains?");
     console.log("Do they think they're a zombie? " + zombie);
     if (zombie == null) {
         infection()
     }
-    else if (zombie.toLowerCase() == "yes") { document.write("We have alerted the authorities. Don't read this website, zombie! [Just Kidding! Or am I?]") }
-    else if (zombie.toLowerCase() == "no") { document.write("Whew, thats excellent news! Study this website carefully, fellow human.") }
+    else if (zombie.toLowerCase() == "yes") { 
+        document.write("We have alerted the authorities. Don't read this website, zombie! [Just Kidding! Or am I?]") 
+}
+    else if (zombie.toLowerCase() == "no") { 
+        document.write("Whew, thats excellent news! Study this website carefully, fellow human.") 
+    }
     else {
         alert("That was a yes or no question, silly goose. Try again.")
         infection()
     }
 }
 
+
 function doublecheck() {
-    if (confirm("Are you 100% sure about that?") == true) { }
-    else {
+    let answer = confirm("Are you 100% sure about that?");
+    while (answer != true) { 
         alert("Are you not sure of yourself? Try again.")
         infection()
-        doublecheck()
     }
-
 }
+
+
+
+// function doublecheck() {
+    // if (confirm("Are you 100% sure about that?") == true) { 
+
+    // }
+    // else {
+    //     alert("Are you not sure of yourself? Try again.")
+    //     infection()
+    //     doublecheck()
+    // }
+
+// }
 
 function cheeseburgers() {
     let burgers = prompt("Last question, how many cheeseburgers do you want for the road? Maximum of 5. Use your NumPad!")
