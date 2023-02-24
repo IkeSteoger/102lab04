@@ -39,7 +39,7 @@ function cheeseburgers() {
         alert("Thats not a numerical value between 0-5! Use your Numpad.");
     }
     for (let i = 0; i < burgers; i++) {
-        show_image('/images/cheeseburger.png',
+        show_image('images/cheeseburger.png',
             500,
             500,
             'Yum Cheeseburger');
