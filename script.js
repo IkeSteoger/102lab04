@@ -20,16 +20,14 @@ function infection() {
     }
 }
 
-
 function doublecheck() {
     let answer = confirm("Are you 100% sure about that?");
     while (answer != true) { 
-        alert("Are you not sure of yourself? Try again.")
-        infection()
+        alert("Are you not sure of yourself? Try again.");
+        doublecheck();
+        return;
     }
 }
-
-
 
 // function doublecheck() {
     // if (confirm("Are you 100% sure about that?") == true) { 
